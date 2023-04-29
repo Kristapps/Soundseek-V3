@@ -1,0 +1,19 @@
+.App {
+    background-color: black;
+    height: 100vh;
+}
+
+.mainpage-header{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(18, 18, 18);
+}
+
+.home-container{
+    height: 100vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,53 @@
+.ButtonChoiceContainer{
+    align-self: center;
+    vertical-align:middle;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+
+    border-radius: 16em;
+    padding: 4em 2em 2em 2em;
+    margin: 0 0 2em 0;
+    width: 70em;
+}
+.ButtonChoiceContainer svg:hover{
+    color: #f9f9f9;
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(78,140,255), rgb(170, 170, 252));
+}
+
+.ButtonChoice svg{
+    color: #ffffff;
+    width: 15rem;
+    height: 15rem;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff00;
+    transition: transform 0.3s;
+    
+}
+.ButtonChoice h2{
+    align-self: center;
+    color: white;
+    width: auto;
+    text-align: center;
+    margin-right: 1em;
+}
+
+@media only screen and (max-width: 1790px) {
+    .ButtonChoiceContainer{
+        height: 12rem;
+    }
+    .ButtonChoice svg{
+        width: 10rem;
+        height: 10rem;
+    }
+}

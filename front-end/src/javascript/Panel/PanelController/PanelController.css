@@ -1,0 +1,19 @@
+.main-panel-container{
+    height: 80%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1790px) {
+    .main-panel-container{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.inactive{
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}

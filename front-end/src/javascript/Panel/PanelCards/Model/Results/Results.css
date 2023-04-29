@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'LGC';
+    src: url('../../../../../font/Louis\ George\ Cafe.ttf'), format('ttf');
+    font-family: 'MontBold';
+    src: url('../../../../../font/Mont-HeavyDEMO.otf'), format('otf');
+}
+
+.parallex-panel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.results-panel{
+    background-color: white;
+    width: 95%;
+    height: vh;
+    
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0 2em 0 #0d26e7;
+    position: relative;
+}
+
+.results-header{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-header p{
+    font-family: 'LGC';
+    color: white;
+}
+
+.results-content{
+    overflow: scroll;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results-panel p{
+    margin-left: 10px;
+}
+
+#results-title{
+    font-family: 'MontBold';
+    align-self: top ;
+    height: auto;
+    font-size: 3rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+.results-content div{
+    width: 100%;
+    height: 100%;
+    background-color:#0d26e7;
+}
+
+.results-content h1{
+    align-self: center;
+}

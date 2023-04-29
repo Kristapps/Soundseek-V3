@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+min-height: 100%;
+}
+
+.main-container{
+height: 300px; 
+}
+
+.register-container {
+display: flex;
+justify-content: center;
+text-align: center;
+vertical-align: middle;
+width: 100%;
+height: 100%;
+}
+
+.main-form{
+justify-content: center;
+vertical-align: middle;
+}
+
+.register-form {
+display: flex;
+justify-content: left;
+text-align: center;
+vertical-align: middle;
+align-items: center;
+
+width: 60%;
+height: 20%;
+background-color: #ccbbde;
+border: 5px solid rgb(12, 12, 12);
+border-radius: 50px;
+padding: 20px;
+font-family: LogoFont;
+}
+
+.email-register-form{
+width: 100%;
+height: auto;
+}
+
+.loginButton {
+width: 60px;
+height: 20%;
+}
+
+.register-form-header{
+display: flex;
+justify-content: center;
+text-align: center;
+vertical-align:text-top;
+width: 100px;
+height: 100px;
+}
+.signup-submit{
+width: 70%;
+height: 20%;
+align-self: center;
+margin-top: 50px;
+}
+
+.google-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.input-form{
+display: block;
+justify-content: left;
+text-align: left;
+}
+
+footer{
+height: 40px;
+background-color: rgb(12,12,12);
+color: white;
+
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+}
+
+.foot-elements {
+display: flex;
+justify-content:space-evenly;
+text-align: center;
+vertical-align:bottom;
+}
+
+a.foot-elements {
+text-decoration: none;
+text-align: center;
+}
+
+.foot-link{
+text-decoration: none;
+color: inherit;
+font-family: LogoFont;
+}
+
+.sign_in_logo{
+width: 50px;
+max-height: auto;
+margin-top: 5px;
+background-color: white;
+border-radius: 25px;
+cursor: pointer;
+}
+
+#timer-container{
+display: none;
+}

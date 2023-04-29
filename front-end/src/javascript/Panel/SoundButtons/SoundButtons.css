@@ -1,0 +1,41 @@
+.sound-box{
+    width:30%;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #000000;
+    color: white;
+    border: white solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.sound-box svg{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(78,140,255), rgb(170, 170, 252));
+    transition: transform, color 0.2s;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sound-box svg:hover{
+    color: #f9f9f9;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.sound-box p{
+    font-size: smaller;
+    align-self: center;
+}
+
+.sound-box input{
+    align-self: center;
+}

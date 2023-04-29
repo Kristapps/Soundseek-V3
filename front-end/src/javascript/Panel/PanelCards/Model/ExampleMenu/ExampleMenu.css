@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'LGC';
+    src: url('../../../../../font/Louis\ George\ Cafe.ttf'), format('ttf');
+}
+
+.parallex-panel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.example-menu-panel{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    
+    justify-content: flex-start;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0 2em 0 #0d26e7;
+    position: relative;
+}
+
+.example-menu-header{
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-menu-header p{
+    font-family: 'LGC';
+    color: white;
+}
+
+.example-content{
+    overflow: scroll;
+    height: 100%;
+}
+.example-content p{
+    margin-left: 10px;
+}
+
+.navigation{
+    width: 100%;
+    background-color: black;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation p{
+    color: white;
+    font-family: 'LGC';
+    padding-right: 10px;
+
+}
+
+.navigation svg{
+    padding-left: 10px;
+    color: white;
+    align-self: center;
+    height:2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.navigation svg:hover{
+    color: #d2e9f5;
+}
+
+@media only screen and (max-width: 1790px){
+    .example-menu-panel{
+        height: 80%;
+    }
+}

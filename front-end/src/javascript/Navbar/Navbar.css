@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'LGC';
+  src: url('../../font/Louis\ George\ Cafe.ttf'), format('ttf');
+}
+
+nav {
+    position: fixed; /* Fix the navbar to the top of the page */
+    top: 0; /* Align the navbar to the top of the page */
+    left: 0; /* Align the navbar to the left of the page */
+    right: 0; /* Stretch the navbar to the full width of the page */
+    z-index: 1; /* Make sure the navbar appears above other elements on the page */
+    display: flex; /* Display the navbar as a flex container */
+    justify-content: flex-end;
+    align-items: center; /* Vertically center the elements within the navbar */
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 80px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Set the width of the buttons to 80% of the navbar */
+    height: 100%;
+
+    border-bottom-width: 5px solid var(#0d26e7);
+    border-bottom-color: #0d26e7;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto; /* Anchor the buttons to the right side of the page */
+    margin-right: 40px;
+    height: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+
+    border-bottom-width: 5px solid var(#0d26e7);
+    border-bottom-color: #0d26e7;
+  }
+  
+  .nav-links li {
+    height: 100%;
+ 
+  }
+  
+  .nav-links a{
+    display: flex;
+    color: #050505;
+    text-decoration: none;
+    font-family: LogoFont;
+    transition: background-color 0.3s;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    line-height: 80px;
+  }
+  
+  .nav-links a:hover{
+    background-color:#0d26e7;
+  }
+  .logo {    
+    max-height: 70px; /* Set the maximum height to the height of the navbar container */
+    width: auto; /* Set the width to auto to maintain the aspect ratio */
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+
+.navbar {
+
+  border-bottom: 4px solid;
+  border-bottom-color: #0d26e7;
+}
+
+.home-icon {
+  cursor: pointer;    
+  display: flex;
+  color: #050505;
+  text-decoration: none;
+  font-family: LogoFont;
+  transition: color 0.3s;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.home-icon:hover{
+  color:#0d26e7;
+}
