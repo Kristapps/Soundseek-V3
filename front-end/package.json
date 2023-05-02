@@ -1,6 +1,6 @@
 {
   "name": "soundscape-seek",
-  "homepage" : ".",
+  "homepage" : "http://soundseek.pro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
