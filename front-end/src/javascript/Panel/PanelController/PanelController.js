@@ -105,7 +105,7 @@ function PanelController(props){
                 
                 
                 //upload to database and change controller to PanelControllerAI
-                fetch('http://127.0.0.1/SaveSurveyData',{
+                fetch('http://127.0.0.1:5000/SaveSurveyData',{
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
