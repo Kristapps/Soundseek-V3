@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8412a79a.css",
+    "main.css": "/static/css/main.8c3ad43c.css",
     "main.js": "/static/js/main.033dc3f5.js",
     "static/media/Mont-HeavyDEMO.otf": "/static/media/Mont-HeavyDEMO.a1c041a8d8e27fc771db.otf",
     "static/media/soundseeklogo2000x2000.png": "/static/media/soundseeklogo2000x2000.39c6c1cad2a683846655.png",
     "static/media/Louis George Cafe.ttf": "/static/media/Louis George Cafe.eacd87871e9a39013626.ttf",
     "index.html": "/index.html",
-    "main.8412a79a.css.map": "/static/css/main.8412a79a.css.map",
+    "main.8c3ad43c.css.map": "/static/css/main.8c3ad43c.css.map",
     "main.033dc3f5.js.map": "/static/js/main.033dc3f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8412a79a.css",
+    "static/css/main.8c3ad43c.css",
     "static/js/main.033dc3f5.js"
   ]
 }
